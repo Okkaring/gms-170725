@@ -24,6 +24,3 @@
 <div id= "clock">   TIME : <%= now %> </div>
 <hr id="title_line">
 </header>
-</div>
-</body>
-</html>

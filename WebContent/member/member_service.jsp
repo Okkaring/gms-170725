@@ -11,7 +11,9 @@
 	String pw = request.getParameter("pw");
 	String gender = request.getParameter("gender");
 	String birth=request.getParameter("birthday");
-	String age=String.valueOf(Integer.parseInt(new SimpleDateFormat("yyyy").format(new Date())) -Integer.parseInt(birth));
+	String age="";
+			/* String.valueOf(Integer.parseInt(new SimpleDateFormat("yyyy").format(new Date())) -Integer.parseInt(birth)); */
+	
 	String email = request.getParameter("email");
 	String major = request.getParameter("major");
 	

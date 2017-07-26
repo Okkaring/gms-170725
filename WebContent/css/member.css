@@ -119,6 +119,30 @@
 	border-bottom: 1px solid gray; height:20px;
 }
 
+/* MEMBER_SEARCH */
+#member_search_box{
+	margin:0 auto;
+	font-weight: bold;
+	width: 300px;
+}
 
-
+/* MEMBER_DETAIL_TAB */
+#member_detail_tab{
+	width: 50%;
+	margin: 0 auto;
+}
+#member_detail_tab tr{
+	font-weight: bold;
+	margin: 0 auto;
+}
+#member_detail_tab td{
+	height:50px;
+	border: 2px solid black; 
+	font-weight: bold;
+	margin: 0 auto;
+}
+.content_width{
+	margin:0 auto;
+	width: 25%;
+}
 

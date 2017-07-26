@@ -2,7 +2,8 @@
 <%@ include file = "member_head.jsp" %>
 <div id="container">
 <img src="<%=root(request)%>/img/mainimg.jpg"/><br />
-<form id="join_form" action="member_detail.jsp" method="get">
+
+<form id="join_form" action="<%=headRoot(request)%>/member/service_add.jsp" method="get">
 	
 	<fieldset>
 	<legend id="legend_set">ADD ARTICLE</legend><br />
@@ -14,7 +15,7 @@
 	<input name="pw" type="password" placeholder="비밀번호"><br>
 	 
  	<span id="add_bday">Birth day:</span>
- 	<input name="birthday" type="text" style="width: 170px;"><br>
+ 	<input name="birthday" type="date"><br>
  	 
  	<input type="radio" name="gender" value="male" checked> Male
  	<input type="radio" name="gender" value="female" checked> Female<br />
